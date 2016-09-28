@@ -25,3 +25,9 @@ Python experiments with Machine / Deep Learning on the GPU in [TensorFlow](https
 - run script: `python test.py`
 - run tensorboard: `tensorboard --logdir .` -> localhost:6006
 - run jupyter: `jupyter notebook "$@"` -> localhost:8888
+
+
+
+## Misc
+- monitor CPU usage on host: `htop`
+- monitor GPU usage on host: `nvidia-smi -l 1`
