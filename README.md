@@ -4,7 +4,14 @@ Python experiments with Machine / Deep Learning on the GPU in [TensorFlow](https
 ## Requirements
 
 - [Docker](https://docs.docker.com/engine/installation/)
-- [nvidia-docker](https://github.com/NVIDIA/nvidia-docker)
+- [nvidia-docker (for GPU)](https://github.com/NVIDIA/nvidia-docker)
+
+
+## Running Without GPU Support
+(on any docker-supported platform)
+
+- change the Dockerfile to read `FROM gcr.io/tensorflow/tensorflow:latest`
+- change start.sh to use `docker` instead of `nvidia-docker`
 
 
 ## Getting Started
